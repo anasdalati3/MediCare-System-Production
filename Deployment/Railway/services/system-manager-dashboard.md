@@ -7,7 +7,7 @@ React (Vite) platform-admin SPA served by Nginx. Public.
 | Railway Service Name | `system-manager-dashboard` |
 | Build Context | `./Frontend/React/system-manager-dashboard` |
 | Dockerfile Path | `Dockerfile` |
-| Build Args | `VITE_API_BASE_URL=https://<api-gateway-public-domain>` (**required**), `VITE_GRAFANA_URL=https://<grafana-domain>`, `VITE_GRAFANA_DASHBOARD_UID=medicare-platform` |
+| Build Args | `VITE_API_BASE_URL=https://<api-gateway-public-domain>` (**required**), `VITE_GRAFANA_URL=https://grafana-production-b423.up.railway.app`, `VITE_GRAFANA_DASHBOARD_UID=medicare-platform` |
 | Start Command | *(image default: nginx)* |
 | Port | container listens on `80` — set Railway target port to `80` |
 | Public / Private | **Public** |
